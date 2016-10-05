@@ -1,13 +1,13 @@
 pkgname=sdl2_mixer
-pkgver=2.0.0
-pkgrel=2
+pkgver=2.0.1
+pkgrel=1
 pkgdesc="A simple multi-channel audio mixer (Version 2)"
 arch=('x86_64')
 url="http://www.libsdl.org/projects/SDL_mixer"
 license=('MIT')
 depends=('sdl2' 'libvorbis' 'libmodplug' 'smpeg' 'flac' 'fluidsynth')
 source=("http://www.libsdl.org/projects/SDL_mixer/release/SDL2_mixer-${pkgver}.tar.gz")
-md5sums=('65f6d80df073a1fb3bb537fbda031b50')
+md5sums=('c6c4f556d4415871f526248f5c9a627d')
 
 prepare() {
   cd "${srcdir}/SDL2_mixer-${pkgver}/"
